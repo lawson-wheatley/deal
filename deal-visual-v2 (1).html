@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEAL</title>
+<meta name="description" content="A sourced framework connecting the exposure, the creditors, and the cost.">
+<meta property="og:title" content="DEAL">
+<meta property="og:description" content="Who holds the debt. Who is collecting. Who pays.">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,300;1,8..60,400&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#fcfbf8;color:#1a1a18;font-family:'Source Serif 4',Georgia,serif;-webkit-font-smoothing:antialiased}
+::selection{background:#1a1a18;color:#fcfbf8}
+
+.col{max-width:640px;margin:0 auto;padding:0 20px}
+
+/* HEADER */
+header{padding:96px 0 64px;border-bottom:2px solid #1a1a18}
+header h1{font-family:'Libre Franklin',sans-serif;font-size:15px;font-weight:700;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:24px}
+header .hed{font-size:clamp(28px,5vw,42px);line-height:1.25;font-weight:300;max-width:560px}
+header .hed em{font-weight:600;font-style:normal}
+header .dek{margin-top:20px;font-size:16px;color:#666;line-height:1.7;max-width:480px}
+
+/* BODY TEXT */
+.prose{padding:48px 0}
+.prose p{font-size:17.5px;line-height:1.78;margin-bottom:1.4em;color:#2a2a28}
+.prose p:last-child{margin-bottom:0}
+.label{font-family:'Libre Franklin',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#888;margin-bottom:10px}
+
+/* PULL QUOTE */
+.pq{margin:48px 0;padding:0 0 0 20px;border-left:2px solid #1a1a18}
+.pq p{font-size:20px;line-height:1.55;font-weight:300;color:#1a1a18}
+
+/* TABLE: THE PARTIES */
+.parties{margin:48px 0;border-top:1px solid #ccc}
+.party-row{display:grid;grid-template-columns:140px 1fr;border-bottom:1px solid #e5e4e0;padding:14px 0;gap:16px}
+.party-role{font-family:'Libre Franklin',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#888;padding-top:3px}
+.party-body{}
+.party-name{font-size:17px;font-weight:600;margin-bottom:2px}
+.party-detail{font-size:14.5px;color:#666;line-height:1.6}
+@media(max-width:520px){.party-row{grid-template-columns:1fr;gap:2px}}
+
+/* TIMELINE */
+.tl{margin:48px 0}
+.tl-decade{font-family:'Libre Franklin',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#1a1a18;padding:20px 0 8px;border-bottom:1px solid #1a1a18}
+.tl-decade:first-child{padding-top:0}
+.tl-entry{display:grid;grid-template-columns:72px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:14.5px;line-height:1.6}
+.tl-entry:last-child{border-bottom:none}
+.tl-yr{font-family:'Libre Franklin',sans-serif;font-weight:600;color:#1a1a18;font-size:13px;padding-top:1px}
+.tl-desc{color:#444}
+.tl-desc b{font-weight:400;color:#1a1a18}
+.tl-cat{font-family:'Libre Franklin',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#999;margin-left:6px}
+
+/* THE QUESTION */
+.question-box{margin:48px 0;padding:32px;background:#f0efeb;border:1px solid #ddd}
+.question-box .label{color:#666}
+.question-box p{font-size:16.5px;line-height:1.75;color:#2a2a28;margin-bottom:1em}
+.question-box p:last-child{margin-bottom:0}
+.question-box em{color:#1a1a18;font-style:normal;font-weight:600}
+
+/* NUMBERS */
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#ccc;margin:48px 0;border:1px solid #ccc}
+.num{background:#fcfbf8;padding:20px 16px;text-align:center}
+.num .n{font-family:'Libre Franklin',sans-serif;font-size:clamp(22px,4vw,32px);font-weight:700;line-height:1;margin-bottom:4px}
+.num .n-label{font-size:12px;color:#888;line-height:1.4}
+@media(max-width:520px){.nums{grid-template-columns:1fr}}
+
+/* FOOTER */
+footer{padding:48px 0;border-top:2px solid #1a1a18;margin-top:48px}
+footer p{font-size:13px;color:#888;line-height:1.8}
+footer a{color:#1a1a18;text-decoration:underline;text-underline-offset:3px}
+
+hr{border:none;border-top:1px solid #e5e4e0;margin:48px 0}
+</style>
+</head>
+<body>
+
+<div class="col">
+
+<header>
+<h1>Deal</h1>
+<div class="hed">Who holds the debt. Who is collecting. And <em>who pays</em> when the deal is done.</div>
+<div class="dek">A seven-part sourced analysis of the convergence of exposure, leverage, and power shaping American foreign policy in real time. March 2026.</div>
+</header>
+
+<div class="prose">
+<p class="label">The framework</p>
+<p>There is a term in finance for the moment when all parties to a complex deal must simultaneously deliver what they owe: the closing. Everything happens at once because no one trusts anyone else enough to go first, and the window is finite.</p>
+<p>This series argues that what the United States is experiencing in 2025–2026 is a closing. The debts are decades old. The creditors are foreign governments. The currency is American policy. And the man at the center cannot afford to lose power — because the presidency is the only thing standing between him and catastrophic consequences across criminal, financial, and evidentiary domains, all at once.</p>
+</div>
+
+<div class="nums">
+<div class="num"><div class="n">34</div><div class="n-label">felony convictions<br>sentencing deferred</div></div>
+<div class="num"><div class="n">40</div><div class="n-label">classified document<br>charges, dropped</div></div>
+<div class="num"><div class="n">8+</div><div class="n-label">flights on Epstein's<br>jet, 1993–1996</div></div>
+</div>
+
+<div class="prose">
+<p class="label">The parties</p>
+<p>The series maps the closing as a financial structure. Each party has a role, an instrument, and a stake in the outcome.</p>
+</div>
+
+<div class="parties">
+<div class="party-row">
+<div class="party-role">The debtor</div>
+<div class="party-body"><div class="party-name">The president</div><div class="party-detail">34 felony convictions. Decades of Russian-connected financing. At least eight documented Epstein flights. Suppressed FBI interviews. A 40-count indictment dropped upon winning the presidency. The office is the shelter.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">Creditor</div>
+<div class="party-body"><div class="party-name">Russia</div><div class="party-detail">Alaska summit capitulation. ExxonMobil–Rosneft deals. $300B frozen-assets framework. Sanctions lifted while providing targeting intelligence used to kill American troops.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">Creditor</div>
+<div class="party-body"><div class="party-name">Israel</div><div class="party-detail">Operation Epic Fury launched without authorization. Iran's nuclear program degraded. $3.8B+ in annual military aid. AIPAC's $221M enforcing compliance across both parties.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">Underwriting</div>
+<div class="party-body"><div class="party-name">The Epstein apparatus</div><div class="party-detail">Multi-property surveillance infrastructure. Israeli government–installed equipment. FBI memo: "co-opted agent." Cameras in every room. Material survives the operator's death. Co-conspirator seeks clemency from the person most exposed.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">Co-signers</div>
+<div class="party-body"><div class="party-name">The majority party</div><div class="party-detail">From Garland blockade to impeachment acquittal to nominating a convicted felon. Eight of ten who broke ranks were destroyed. The ratchet turns one direction.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">Counterparties</div>
+<div class="party-body"><div class="party-name">The opposition</div><div class="party-detail">Constrained by the same donor class. Biden DOJ: four years of inaction on the files. At the same table, bound by money — but the constraints are not symmetrical.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">The hedge</div>
+<div class="party-body"><div class="party-name">Institutional capture</div><div class="party-detail">17 IGs fired. 317,000 employees removed. 50,000 reclassified. DOJ centralized. Draft election EO circulated. Project 2025: 900 pages, 20,000 loyalists, 180-day playbook. The systematic destruction of every mechanism that could unwind the deal.</div></div>
+</div>
+<div class="party-row">
+<div class="party-role">The collateral</div>
+<div class="party-body"><div class="party-name"><span style="background:#1a1a18;color:#1a1a18;padding:1px 2px;cursor:default;user-select:none">You</span></div><div class="party-detail"><span style="background:#1a1a18;color:#1a1a18;padding:1px 2px">Every settlement paid from your account.</span> <span style="background:#1a1a18;color:#1a1a18;padding:1px 2px">You were not at the table.</span> <span style="background:#1a1a18;color:#1a1a18;padding:1px 2px">You were a line item.</span></div></div>
+</div>
+</div>
+
+<hr>
+
+<div class="prose">
+<p class="label">The pattern: 1973 – 2026</p>
+<p>The behavioral baseline stretches fifty years. Each entry below is sourced in the relevant installment of the series.</p>
+</div>
+
+<div class="tl" id="timeline"></div>
+
+<hr>
+
+<div class="question-box">
+<div class="label">The question the series asks</div>
+<p>A man with 34 felony convictions, decades of financial entanglement with foreign capital, documented flight logs that contradict his public statements, FBI interviews suppressed by his own Justice Department, and a classified damage assessment sealed under his own authority — holds the most powerful office on earth.</p>
+<p>The office is the only thing between him and catastrophe. Not political inconvenience. <em>Catastrophe</em> — across criminal, financial, and evidentiary domains, simultaneously.</p>
+<p>What is a person in that position willing to do to stay in it? What is he willing to pay — and with whose money? What is he willing to trade — and from whose account? What is he willing to launch — and with whose children?</p>
+<p>The series documents what has already been done. The question is whether there is anything he wouldn't do.</p>
+</div>
+
+<div class="nums">
+<div class="num"><div class="n">423</div><div class="n-label">sourced links</div></div>
+<div class="num"><div class="n">90+</div><div class="n-label">outlets cited</div></div>
+<div class="num"><div class="n">7</div><div class="n-label">installments</div></div>
+</div>
+
+<footer>
+<p>DEAL is a seven-part sourced series. Every claim is linked in the relevant installment.<br>
+<a href="#">Read the full series →</a></p>
+</footer>
+
+</div>
+
+<script>
+const data=[
+{d:"1970s–1990s",entries:[
+{y:"1973",c:"Exposure",t:"DOJ sues Trump for racial discrimination. His attorney: <b>Roy Cohn</b> — McCarthy's former counsel — teaches him to attack, counterattack, never apologize."},
+{y:"1980s",c:"Apparatus",t:"Former intelligence officer claims Epstein and Ghislaine Maxwell were working with a foreign intelligence service — running a <b>recruitment and compromise operation</b> targeting powerful individuals."},
+{y:"~1983",c:"Exposure",t:"A woman later tells the FBI that around age 13, Epstein introduced her to Trump. She alleges sexual assault. The FBI <b>interviews her four times</b>."},
+{y:"1985",c:"Apparatus",t:"Robert Maxwell distributes <b>modified surveillance software</b> on behalf of a foreign intelligence service — altered to monitor the governments that purchased it."},
+{y:"1989",c:"Exposure",t:"Trump takes out <b>full-page ads in four newspapers</b> calling for the death penalty for the Central Park Five. When DNA exonerates them, he calls the $41M settlement 'a disgrace.'"},
+{y:"1991",c:"Apparatus",t:"Robert Maxwell found dead in the Atlantic. Buried on the Mount of Olives with <b>six intelligence chiefs</b> in attendance. PM eulogizes: he did more for Israel 'than can today be said.'"},
+{y:"1993–96",c:"Exposure",t:"Trump flies on Epstein's jet <b>at least eight times</b>. Four flights include Ghislaine Maxwell. One flight lists only three passengers: Epstein, Trump, and a 20-year-old woman."},
+{y:"1996",c:"Apparatus",t:"Victim Maria Farmer tells the FBI she was shown a <b>hidden room where teams of men monitored</b> the property using pinhole cameras — including in bedrooms and bathrooms."},
+{y:"1998–05",c:"Exposure",t:"Trump-branded projects financed through <b>Russian-connected capital</b> (Bayrock Group, Deutsche Bank). Sater emails: 'Our boy can become president and we can engineer it.' No Western bank will lend to him."},
+]},
+{d:"2005–2016",entries:[
+{y:"2005",c:"Apparatus",t:"Charles Kushner convicted of witness tampering — hiring a sex worker to <b>secretly record a compromising encounter</b> for coercion. Christie: 'one of the most loathsome, disgusting crimes' he prosecuted."},
+{y:"2005",c:"Apparatus",t:"Palm Beach police raid Epstein's residence. <b>Camera hidden inside a clock</b>. Investigation results in a non-prosecution agreement."},
+{y:"2013–15",c:"Apparatus",t:"A senior intelligence officer from a foreign government <b>resides at Epstein's Manhattan property</b> while still serving in his government's defense ministry."},
+{y:"2014",c:"Apparatus",t:"Epstein directs an aide to purchase <b>hidden cameras concealed inside Kleenex boxes</b> for his properties."},
+{y:"2016",c:"Apparatus",t:"Israeli government coordinates <b>surveillance equipment installation</b> at Epstein's apartment. System includes remote access: 'They can neutralize the system from far.'"},
+{y:"2016",c:"Co-sign",t:"Senate refuses hearings on Supreme Court nominee for <b>293 days</b>. McConnell later calls it 'the most consequential thing I've ever done.' First signature on the ratchet."},
+{y:"2016",c:"Exposure",t:"Trump elected. Kushner proposes a <b>back channel through the Russian embassy</b> — outside U.S. intelligence monitoring."},
+]},
+{d:"2017–2019",entries:[
+{y:"2017",c:"Exposure",t:"Deutsche Bank pays <b>$630M in penalties</b> for involvement in a $10B Russian money laundering scheme. Deutsche was one of the few institutions still willing to lend to Trump."},
+{y:"2017",c:"Creditor",t:"Erik Prince meets Kremlin-connected <b>Kirill Dmitriev in the Seychelles</b>. Dmitriev later becomes Russia's investment envoy managing the post-sanctions deal flow."},
+{y:"2018",c:"Apparatus",t:"Epstein emails: Maxwell's father 'threatened the intelligence service — unless they gave him <b>£400 million</b>, he would expose all he had done for them.'"},
+{y:"2019",c:"Exposure",t:"Mueller report documents <b>ten episodes of potential obstruction</b>. Trump attempted to fire the special counsel, directed false records, dangled pardons for witnesses."},
+{y:"Jun 2019",c:"Apparatus",t:"Epstein texts Bannon: <b>'Now you can understand why Trump wakes up in the middle of the night sweating</b> when he hears you and I are friends.' Days before arrest."},
+{y:"Jul 2019",c:"Apparatus",t:"FBI searches Epstein's townhouse. <b>300+ GB of data seized</b> — hard drives, CDs labeled with names. Some evidence disappears between the first entry and the warranted return."},
+{y:"Aug 2019",c:"Apparatus",t:"Epstein dies where <b>both cameras malfunctioned</b>. Recordings destroyed. FBI later destroys the master surveillance recording. A one-minute gap remains unexplained."},
+]},
+{d:"2020–2024",entries:[
+{y:"Feb 2020",c:"Co-sign",t:"Senate acquits on first impeachment. <b>One Republican breaks ranks</b>. He is booed, censured by county parties, called a traitor by the president."},
+{y:"Dec 2020",c:"Exposure",t:"Trump <b>pardons Charles Kushner</b>. Later appoints him ambassador to France, where the foreign ministry restricts his access for conduct 'incompatible with the ambassadorial mission.'"},
+{y:"Jan 2021",c:"Co-sign",t:"Ten House members vote to impeach after Jan 6. <b>Eight of ten destroyed or driven out</b>. 'Not a good time for Impeachers — 7 down, 3 to go.'"},
+{y:"Jan 2021",c:"Exposure",t:"Classified documents taken to Mar-a-Lago — including <b>HCS material identifying CIA human intelligence sources</b>. Stored in a basement, a closet, and a dressing room at a resort club."},
+{y:"May 2021",c:"Exposure",t:"A Russian-speaking woman using a fake Rothschild identity <b>gains access to Mar-a-Lago</b> and is photographed with Trump."},
+{y:"Sep 2021",c:"Exposure",t:"CIA sends <b>unprecedented cable to every station on earth</b>: informants being killed or compromised. Includes the specific number killed — normally withheld even from CIA employees. Nine months after documents arrive."},
+{y:"Aug 2022",c:"Exposure",t:"FBI searches Mar-a-Lago. <b>184 classified documents</b> recovered. Attorneys caught on surveillance moving boxes <b>the day after a subpoena was served</b>. Indicted on 37 counts, later 40."},
+{y:"May 2024",c:"Exposure",t:"Convicted on <b>34 felony counts</b> in New York. Sentencing deferred by the presidency."},
+{y:"Nov 2024",c:"Co-sign",t:"Party <b>nominates and elects a convicted felon</b>. All charges dropped upon winning. Every delegate co-signs the entire debt."},
+]},
+{d:"2025",entries:[
+{y:"Jan 20",c:"Hedge",t:"Inaugurated. Reinstates <b>Schedule F</b> on day one — reclassifying 50,000 career civil servants to at-will status."},
+{y:"Jan 24",c:"Hedge",t:"<b>17 inspectors general fired</b> in a single night via email. Congress not given legally required notice. Judge later rules the firings violated the Inspector General Act."},
+{y:"Feb–Dec",c:"Hedge",t:"<b>317,000 federal employees</b> leave. DOGE accesses Treasury payment systems, Social Security databases. A Starlink terminal installed bypassing White House security."},
+{y:"May",c:"Exposure",t:"AG Bondi <b>privately informs the president</b> his name appears in the Epstein files before the public sees them."},
+{y:"Aug 15",c:"Creditor",t:"Alaska summit: arrives with ultimatum, <b>abandons it in three hours</b>. Putin signs law easing ExxonMobil's return to Russia the same day. Carnegie: 'abandoned his own position.'"},
+{y:"Sep",c:"Exposure",t:"White House calls support for the files bill <b>'a very hostile act to the administration.'</b> Fights the discharge petition."},
+{y:"Nov",c:"Exposure",t:"Epstein Files Transparency Act passes <b>427–1</b>. Signed without cameras, without ceremony. Claims credit on Truth Social after clearing the room."},
+{y:"Dec",c:"Exposure",t:"First release: <b>500+ pages blacked out</b>. Sixteen files vanish from database within 24 hours. At least half a dozen current administration officials named. NSS published — Moscow calls it 'largely consistent' with the Kremlin's vision."},
+{y:"Dec",c:"Creditor",t:"Bloomberg reports a <b>Kremlin memo proposing to return to the dollar system</b> as a pitch to the administration. $300B frozen-assets framework proposed."},
+]},
+{d:"2026",entries:[
+{y:"Jan",c:"Hedge",t:"Trump <b>floats canceling the midterms</b> — twice. A 17-page draft executive order seizing election power confirmed circulating since April 2025."},
+{y:"Jan",c:"Exposure",t:"3 million pages released. DOJ claims compliance. Maxwell <b>seeks clemency</b>, offering to 'clear his name' — revealing by the offer's existence that the material can do the opposite."},
+{y:"Feb",c:"Hedge",t:"Schedule F <b>finalized by OPM</b>. DOJ Public Integrity Section gutted. Ethics director fired. Over 75% of IG positions remain vacant."},
+{y:"Feb",c:"Exposure",t:"NPR: DOJ <b>systematically withheld files naming Trump</b>. Over 50 pages of FBI interviews suppressed. 'Coding error.' Both oversight chairs investigate. <b>37 pages remain missing</b>."},
+{y:"Feb 28",c:"Creditor",t:"<b>Operation Epic Fury</b> launched without authorization. U.S. and Israel strike Iranian nuclear sites. Khamenei killed. Hormuz closes. Oil surges from ~$60 toward $100."},
+{y:"Mar 5",c:"Creditor",t:"Treasury issues a <b>30-day sanctions waiver for India</b> to buy Russian oil stranded at sea."},
+{y:"Mar 6",c:"Creditor",t:"Russia confirmed providing <b>satellite targeting intelligence on U.S. forces</b>. Six American service members killed in Kuwait. Administration: <b>'not really a factor.'</b>"},
+{y:"Mar 12",c:"Creditor",t:"<b>Sanctions lifted on Russian oil</b> — 124 million barrels. Six days after intelligence-sharing confirmed. Kremlin envoy celebrates on Telegram."},
+{y:"Mar 13",c:"Creditor",t:"Dmitriev meets <b>Witkoff and Kushner in Florida</b>: 'without Russian oil, the global energy market cannot remain stable.'"},
+]}
+];
+const tl=document.getElementById('timeline');
+data.forEach(decade=>{
+const dh=document.createElement('div');
+dh.className='tl-decade';dh.textContent=decade.d;tl.appendChild(dh);
+decade.entries.forEach(e=>{
+const row=document.createElement('div');
+row.className='tl-entry';
+row.innerHTML=`<div class="tl-yr">${e.y}</div><div class="tl-desc">${e.t}<span class="tl-cat">${e.c}</span></div>`;
+tl.appendChild(row);
+});
+});
+</script>
+</body>
+</html>
