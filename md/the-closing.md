@@ -2,8 +2,6 @@
 
 **How accumulated exposure created a president who cannot afford to leave power — and a foreign policy that only makes sense when you understand that fact**
 
-*A sourced analysis — March 13, 2026*
-
 ---
 
 ## The premise
