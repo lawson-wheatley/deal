@@ -2,11 +2,9 @@
 
 **In a closing, collateral is what gets seized when the deal goes bad.**
 
-*Part VI of DEAL — A sourced analysis — March 2026*
-
 ---
 
-You.
+## You.
 
 ---
 
