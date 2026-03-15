@@ -2,8 +2,6 @@
 
 **It's one big table and you're not invited.**
 
-*Part IV of DEAL — A sourced analysis — March 2026*
-
 ---
 
 ## The counterparty
@@ -187,7 +185,3 @@ Parts I through III left the reader with an exit: vote them out, install the oth
 But different in degree matters. One party co-signed the debtor's obligations, suppressed the files, protected the sanctions relief, blocked the war powers resolution, and is actively working to degrade the midterm elections. The other is constrained by funding dependencies and institutional capture that limit its capacity to act — but it retains the structural ability to issue subpoenas, convene hearings, and compel testimony that the current majority has refused to use. The constraint is real. It is not symmetrical. And the difference between a party that cannot fully investigate and a party that is actively preventing investigation is the difference between a flawed instrument and no instrument at all. The reader who concludes from this piece that voting does not matter has misread it. The reader who concludes that voting alone is sufficient has also misread it.
 
 The question is not which side to trust. The question is what it would take to break the table.
-
----
-
-*Part V of this series — The Hedge — will examine the active measures being taken to ensure the deal survives: the draft executive order, the cancellation talk, the gerrymandering, the voter suppression, the procedural chaos. Each one is a clause in the insurance policy that the parties to this deal need — because oversight is the one force that unwinds every settlement described in this series.*
