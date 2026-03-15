@@ -43,6 +43,9 @@ nav .home{color:#1a1a18}
 #content li{margin-bottom:0.5em}
 #content hr{border:none;border-top:1px solid #e5e4e0;margin:48px 0}
 #content img{max-width:100%;height:auto}
+#content p:empty{display:none}
+#content hr+p:empty,#content p:empty+hr{display:none}
+#content p br:only-child{display:none}
 
 /* PREV/NEXT */
 .pn{display:flex;justify-content:space-between;padding:48px 0;border-top:2px solid #1a1a18;margin-top:48px;gap:24px}
@@ -128,6 +131,9 @@ function render() {
     .then(r => { if(!r.ok) throw new Error(); return r.text(); })
     .then(md => {
       content.innerHTML = marked.parse(md);
+      content.querySelectorAll('p').forEach(p => {
+        if (!p.textContent.trim() && !p.querySelector('img')) p.remove();
+      });
       window.scrollTo(0,0);
       document.querySelector('.toc').classList.remove('open');
     })
