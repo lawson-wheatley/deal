@@ -2,8 +2,6 @@
 
 **The deal that was never written down.**
 
-*Part VII of DEAL — A sourced analysis — March 2026*
-
 ---
 
 There is no document.
@@ -171,7 +169,3 @@ This series was the tip.
 You were told this was a democracy. You were told the institutions would hold. You were told that the system had safeguards — that no one person could bend the machinery of the most powerful nation on earth to serve their own survival at the expense of everyone else's.
 
 The safeguard was you. And you were never given the information you needed to do the job.
-
----
-
-*DEAL is a seven-part sourced series examining the convergence of exposure, leverage, and power shaping American foreign policy in real time. All source material is linked throughout. The series was written as events unfolded, between March and [date of final publication], 2026.*
