@@ -2,8 +2,6 @@
 
 **The underwriter is dead. The underwriting survives.**
 
-*Part II of DEAL — A sourced analysis — March 2026*
-
 ---
 
 ## The function
@@ -209,7 +207,3 @@ The conventional explanation requires the reader to accept that a convicted sex 
 The structural explanation requires only one assumption: that an underwriting operation built to collect leverage on powerful people succeeded in collecting it. And that the instruments it produced did not expire when the underwriter died.
 
 In Part I, we documented a closing — debts being settled, in policy, in sanctions relief, in American blood. This piece has documented the underwriting that made those debts enforceable — and the succession that ensures the function continues.
-
----
-
-*Part III of this series — The Co-Signers — will examine how a political party went from reluctant enablers to active participants in the suppression, obstruction, and cover-up that protects the arrangement described in Parts I and II.*
