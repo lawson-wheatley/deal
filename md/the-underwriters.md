@@ -2,7 +2,7 @@
 
 **The underwriter is dead. The underwriting survives.**
 
----
+<br>
 
 ## The function
 

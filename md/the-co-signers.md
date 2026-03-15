@@ -60,6 +60,8 @@ Rep. Thomas Massie, who led the bill and named the officials who fought it — t
 
 And push he has. After the suppression was revealed, Massie did not go quiet. He [requested a Special Master](https://khanna.house.gov/media/press-releases/reps-khanna-and-massie-call-appointment-special-master-compel-department) to compel the DOJ to comply with the law. He [reviewed the unredacted files](https://www.cnn.com/2026/02/09/politics/unredacted-epstein-files-doj-congress) at the DOJ and told reporters he found "the names of at least six men that have been redacted that are likely incriminated by their inclusion." He [posted on X](https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act): "It was not a hoax, I cannot be bullied, I am not done, and this is why those in power are doing everything in their power to defeat me." He [demanded on the House floor](https://www.rollingstone.com/politics/politics-news/epstein-files-thomas-massie-calls-out-doj-1235521879/) that the DOJ explain why there have been no "charges, arrests or investigations" in the United States while foreign governments are arresting people named in the same files. When the president ordered the release of UFO files, Massie [called it](https://www.thedailybeast.com/gop-rebel-accuses-trump-of-ultimate-weapon-of-mass-distraction/) "the ultimate weapon of mass distraction" and added: "But the Epstein files aren't going away… even for aliens."
 
+![sm right: Rep. Thomas Massie](img/massie.jpg "Official portrait / Public domain")
+
 This is what the absence of a co-sign looks like. One member, from one safe seat, doing what every committee chair with subpoena power could be doing and is not. The contrast between Massie's behavior and the silence from the committee chairs who hold the actual levers of oversight is the co-sign made visible. He can name names on the House floor. They can issue subpoenas. He is doing his part. They are not doing theirs.
 
 The 427–1 vote is the baseline. Everything that happened after it is the delta. And the delta is the co-sign becoming visible.
@@ -73,6 +75,8 @@ The co-sign did not begin with the Epstein files. It began years earlier, and it
 A co-sign is a ratchet. It turns in one direction. Every vote to protect, every confirmation to install, every silence maintained when speech was required — each one tightened the mechanism. And ratchets do not release.
 
 ### The precedent
+
+![sm right: Senator Mitch McConnell opening the "CPAC", a conference for conservative activists, in Washington DC in 2011.](img/mcconnell.jpg "Gage Skidmore / CC BY SA 2.0")
 
 The ratchet did not begin with this president. It did not begin in any single year. But there is a moment that established the specific mechanism this piece documents — the proof of concept that demonstrated what the party could do, what it would cost, and what the base would tolerate.
 
@@ -94,6 +98,8 @@ This signature was more expensive than the first, but the ratchet made it afford
 
 ### The third signature: January 6th and the second impeachment
 
+![The U.S. Capitol, January 6, 2021](img/capitol-jan6.jpg "Photo: Tyler Merbler / CC BY 2.0")
+
 On January 13, 2021, ten House members from the president's party voted to impeach for incitement of insurrection. In the Senate, seven members of the same party voted to convict.
 
 The aftermath was systematic. Of the ten House members who voted to impeach: [four lost their primaries](https://www.cbsnews.com/news/liz-cheney-house-republicans-who-voted-to-impeach-trump-fates-primaries-2022/) to challengers endorsed by the president. Four more retired rather than face primaries they could not win. [Only two survived](https://www.nbcnews.com/politics/2024-election/two-republicans-voted-impeach-trump-jan-6-return-house-rcna179904) — both from districts with nonpartisan primary systems that diluted the party's enforcement mechanism. One of those two [announced his retirement](https://www.axios.com/2025/12/17/dan-newhouse-retire-trump-impeachment-jan-6) in December 2025. Eight out of ten, destroyed or driven out. The third-ranking member of the House caucus went from leadership to losing her primary by 37 points in less than two years.
@@ -101,6 +107,8 @@ The aftermath was systematic. Of the ten House members who voted to impeach: [fo
 This is the ratchet made visible. The party did not merely disagree with the members who broke ranks. It destroyed them — systematically, publicly, and as a warning. The mechanism was not subtle. It was not supposed to be. The cost of defection was made visible so that every future calculation would include it.
 
 ### The fourth signature: the nomination
+
+![Fiserv Forum, Milwaukee — the 2024 Republican National Convention](img/rnc-2024.png "Photo: Voice of America / Public domain")
 
 In 2024, the party nominated a man with [34 felony convictions](https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts) for the presidency. Every delegate who voted for the nomination, every official who endorsed, every member who campaigned — each one co-signed the conviction. Not in the sense that they approved of it. In the sense that they attached their political futures to a person whose freedom depends on holding power.
 
@@ -169,6 +177,8 @@ The gap between announcement and action is the co-sign in its purest form. Both 
 The Judiciary Committee has primary oversight of the Department of Justice. Its jurisdiction includes the conduct of the attorney general, the handling of federal investigations, and the integrity of the file release process. It has not convened a hearing on the documented suppression.
 
 ### The war
+
+![An oil tanker burns after being hit by an Iranian strike in the ship-to-ship transfer zone at Khor al-Zubair port near Basra, Iraq, March 11, 2026.](img/uss-nimitz.jpg "AP")
 
 On February 28, 2026, the United States and Israel [launched Operation Epic Fury](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis) — coordinated strikes on Iranian military and nuclear facilities. Congress was not asked to authorize the operation. The War Powers Act requires the president to notify Congress within 48 hours and limits unauthorized hostilities to 60 days without explicit legislative approval. [Lawfare concluded](https://www.lawfaremedia.org/article/operation-epic-fury-puts-congress-and-the-constitution-to-the-test) that "no such interpretation under Article I and the WPR is plausible with the current intervention in Iran" and that "the scale, scope, and objectives of the campaign indicate that this is a war, not a limited military engagement."
 

@@ -8,85 +8,146 @@
 <meta property="og:title" content="DEAL">
 <meta property="og:description" content="Who holds the debt. Who is collecting. Who pays.">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,300;1,8..60,400&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.classList.add('dark')</script>
 <style>
+/* ── THEME TOKENS ── */
+:root{
+  --bg:#fcfbf8;
+  --fg:#1a1a18;
+  --fg2:#2a2a28;
+  --fg3:#555;
+  --mute:#777;
+  --faint:#999;
+  --ghost:#bbb;
+  --rule:#e5e4e0;
+  --rule-heavy:#1a1a18;
+  --link-line:#ccc;
+  --select-bg:#1a1a18;
+  --select-fg:#fcfbf8;
+  --redact:#1a1a18;
+}
+html.dark{
+  --bg:#141413;
+  --fg:#e8e6e1;
+  --fg2:#ccc9c2;
+  --fg3:#a09d96;
+  --mute:#8a8780;
+  --faint:#6b6862;
+  --ghost:#4a4844;
+  --rule:#2a2926;
+  --rule-heavy:#e8e6e1;
+  --link-line:#4a4844;
+  --select-bg:#e8e6e1;
+  --select-fg:#141413;
+  --redact:#e8e6e1;
+}
+
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#fcfbf8;color:#1a1a18;font-family:'Source Serif 4',Georgia,serif;-webkit-font-smoothing:antialiased}
-::selection{background:#1a1a18;color:#fcfbf8}
+body{background:var(--bg);color:var(--fg);font-family:'Source Serif 4',Georgia,serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;transition:background 0.25s,color 0.25s}
+::selection{background:var(--select-bg);color:var(--select-fg)}
+a{transition:color 0.15s,border-color 0.15s}
 
 .col{max-width:640px;margin:0 auto;padding:0 20px}
 
-/* HEADER */
-header{padding:96px 0 64px;border-bottom:2px solid #1a1a18}
-header h1{font-family:'Libre Franklin',sans-serif;font-size:15px;font-weight:700;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:24px}
-header .hed{font-size:clamp(28px,5vw,42px);line-height:1.25;font-weight:300;max-width:560px}
-header .hed em{font-weight:600;font-style:normal}
-header .dek{margin-top:20px;font-size:16px;color:#666;line-height:1.7;max-width:480px}
+/* THEME TOGGLE (top-right) */
+.theme-toggle{position:fixed;top:16px;right:20px;z-index:10;cursor:pointer;border:none;background:none;font-family:'Libre Franklin',sans-serif;font-size:10px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--faint);padding:6px 0;transition:color 0.15s}
+.theme-toggle:hover{color:var(--fg)}
+
+/* HEADER — full bleed */
+header{padding:120px 20px 56px;border-bottom:2px solid var(--rule-heavy);width:100%}
+header .header-inner{max-width:640px;margin:0 auto}
+header h1{font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.35em;text-transform:uppercase;color:var(--faint);margin-bottom:32px}
+header .hed{font-size:clamp(30px,5.5vw,48px);line-height:1.18;font-weight:300;max-width:540px;letter-spacing:-0.01em;color:var(--fg)}
+header .hed em{font-weight:700;font-style:normal}
+header .dek{margin-top:24px;font-size:15px;color:var(--faint);line-height:1.75;max-width:440px;font-family:'Libre Franklin',sans-serif;font-weight:400}
 
 /* BODY TEXT */
 .prose{padding:48px 0}
-.prose p{font-size:17.5px;line-height:1.78;margin-bottom:1.4em;color:#2a2a28}
+.prose p{font-size:17.5px;line-height:1.82;margin-bottom:1.5em;color:var(--fg2)}
 .prose p:last-child{margin-bottom:0}
-.label{font-family:'Libre Franklin',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#888;margin-bottom:10px}
+.label{font-family:'Libre Franklin',sans-serif;font-size:10.5px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--faint);margin-bottom:12px}
 
 /* PULL QUOTE */
-.pq{margin:48px 0;padding:0 0 0 20px;border-left:2px solid #1a1a18}
-.pq p{font-size:20px;line-height:1.55;font-weight:300;color:#1a1a18}
+.pq{margin:48px 0;padding:0 0 0 20px;border-left:2px solid var(--rule-heavy)}
+.pq p{font-size:20px;line-height:1.55;font-weight:300;color:var(--fg)}
 
 /* TABLE: THE PARTIES */
-.parties{margin:48px 0;border-top:1px solid #ccc}
-.party-row{display:grid;grid-template-columns:140px 1fr;border-bottom:1px solid #e5e4e0;padding:14px 0;gap:16px}
-.party-role{font-family:'Libre Franklin',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#888;padding-top:3px}
+.parties{margin:48px 0;border-top:2px solid var(--rule-heavy)}
+.party-row{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--rule);padding:16px 0;gap:16px;transition:background 0.15s}
+.party-row:last-child{border-bottom:2px solid var(--rule-heavy)}
+.party-role{font-family:'Libre Franklin',sans-serif;font-size:10.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--faint);padding-top:4px}
 .party-body{}
-.party-name{font-size:17px;font-weight:600;margin-bottom:2px}
-.party-detail{font-size:14.5px;color:#666;line-height:1.6}
-@media(max-width:520px){.party-row{grid-template-columns:1fr;gap:2px}}
+.party-name{font-size:17px;font-weight:600;margin-bottom:3px;color:var(--fg)}
+.party-name a{color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 0.15s}
+.party-name a:hover{border-bottom-color:var(--fg)}
+.party-detail{font-size:14px;color:var(--mute);line-height:1.65;letter-spacing:0.005em}
+@media(max-width:520px){.party-row{grid-template-columns:1fr;gap:4px}}
 
 /* TIMELINE */
 .tl{margin:48px 0}
-.tl-decade{font-family:'Libre Franklin',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#1a1a18;padding:20px 0 8px;border-bottom:1px solid #1a1a18}
+.tl-decade{font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--fg);padding:24px 0 10px;border-bottom:2px solid var(--rule-heavy)}
 .tl-decade:first-child{padding-top:0}
-.tl-entry{display:grid;grid-template-columns:72px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:14.5px;line-height:1.6}
+.tl-entry{display:grid;grid-template-columns:64px 1fr;gap:16px;padding:10px 0;border-bottom:1px solid var(--rule);font-size:14px;line-height:1.65}
 .tl-entry:last-child{border-bottom:none}
-.tl-yr{font-family:'Libre Franklin',sans-serif;font-weight:600;color:#1a1a18;font-size:13px;padding-top:1px}
-.tl-desc{color:#444}
-.tl-desc b{font-weight:400;color:#1a1a18}
-.tl-cat{font-family:'Libre Franklin',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#999;margin-left:6px}
+.tl-yr{font-family:'Libre Franklin',sans-serif;font-weight:700;color:var(--fg);font-size:12px;padding-top:2px;letter-spacing:0.02em}
+.tl-desc{color:var(--fg3)}
+.tl-desc b{font-weight:600;color:var(--fg)}
+.tl-cat{font-family:'Libre Franklin',sans-serif;font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ghost);margin-left:8px}
 
 /* THE QUESTION */
-.question-box{margin:48px 0;padding:32px;background:#f0efeb;border:1px solid #ddd}
-.question-box .label{color:#666}
-.question-box p{font-size:16.5px;line-height:1.75;color:#2a2a28;margin-bottom:1em}
+.question-box{margin:56px 0;padding:36px 32px;background:transparent;border-top:2px solid var(--rule-heavy);border-bottom:2px solid var(--rule-heavy)}
+.question-box .label{color:var(--faint)}
+.question-box p{font-size:17px;line-height:1.78;color:var(--fg2);margin-bottom:1.2em}
 .question-box p:last-child{margin-bottom:0}
-.question-box em{color:#1a1a18;font-style:normal;font-weight:600}
+.question-box em{color:var(--fg);font-style:normal;font-weight:700}
 
 /* NUMBERS */
-.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#ccc;margin:48px 0;border:1px solid #ccc}
-.num{background:#fcfbf8;padding:20px 16px;text-align:center}
-.num .n{font-family:'Libre Franklin',sans-serif;font-size:clamp(22px,4vw,32px);font-weight:700;line-height:1;margin-bottom:4px}
-.num .n-label{font-size:12px;color:#888;line-height:1.4}
-@media(max-width:520px){.nums{grid-template-columns:1fr}}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:48px 0;border-top:2px solid var(--rule-heavy);border-bottom:2px solid var(--rule-heavy)}
+.num{padding:24px 16px;text-align:center;border-right:1px solid var(--rule)}
+.num:last-child{border-right:none}
+.num .n{font-family:'Libre Franklin',sans-serif;font-size:clamp(24px,4vw,36px);font-weight:700;line-height:1;margin-bottom:6px;letter-spacing:-0.02em;color:var(--fg)}
+.num .n-label{font-size:11px;color:var(--faint);line-height:1.5;font-family:'Libre Franklin',sans-serif;font-weight:400;letter-spacing:0.02em}
+@media(max-width:520px){.nums{grid-template-columns:1fr}.num{border-right:none;border-bottom:1px solid var(--rule);padding:18px 16px}.num:last-child{border-bottom:none}}
 
 /* FOOTER */
-footer{padding:48px 0;border-top:2px solid #1a1a18;margin-top:48px}
-footer p{font-size:13px;color:#888;line-height:1.8}
-footer a{color:#1a1a18;text-decoration:underline;text-underline-offset:3px}
+footer{padding:48px 0;border-top:2px solid var(--rule-heavy);margin-top:56px}
+footer p{font-size:13px;color:var(--faint);line-height:1.8}
+footer a{color:var(--fg);text-decoration:none;transition:color 0.15s}
+footer a:hover{color:var(--fg3)}
+.toc-link{display:grid;grid-template-columns:32px 1fr;padding:12px 0;border-bottom:1px solid var(--rule);font-size:15.5px;color:var(--fg);text-decoration:none;transition:color 0.15s}
+.toc-link:last-child{border-bottom:none}
+.toc-link:hover{color:var(--fg3)}
+.toc-link .toc-num{font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.06em;color:var(--ghost);padding-top:3px}
 
-hr{border:none;border-top:1px solid #e5e4e0;margin:48px 0}
+hr{border:none;border-top:1px solid var(--rule);margin:56px 0}
+
+/* REDACTED SPANS */
+.redact{background:var(--redact);color:var(--redact);padding:1px 3px;transition:color 0.4s}
+
+/* FADE IN */
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+header,.prose,.nums,.parties,.tl,.question-box,footer{animation:rise 0.6s ease both}
+.prose{animation-delay:0.05s}.nums{animation-delay:0.1s}.parties{animation-delay:0.12s}
 </style>
 </head>
 <body>
 
-<div class="col">
+<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()"></button>
 
 <header>
-<h1>Deal</h1>
-<div class="hed">He wrote the book. This is the deal.</div>
+<div class="header-inner">
+<h1>The Cost of the Deal</h1>
+<div class="hed">He wrote the book.<br>This is <em>the deal</em>.</div>
+<div class="dek">A sourced framework connecting the exposure, the creditors, and the cost.</div>
+</div>
 </header>
+
+<div class="col">
 
 <div class="prose">
 <p class="label">The framework</p>
-<p>There is a term in finance for the moment when all parties to a complex deal must simultaneously deliver what they owe: the closing. Everything happens at once because no one trusts anyone else enough to go first, and the window is finite.</p>
-<p>This series argues that what the United States is experiencing in 2025–2026 is a closing. The debts are decades old. The creditors are foreign governments. The currency is American policy. And the man at the center cannot afford to lose power — because the presidency is the only thing standing between him and catastrophic consequences across criminal, financial, and evidentiary domains, all at once.</p>
+<p>There is a term in finance for the moment when all parties to a complex deal must simultaneously deliver what they owe: the closing. Everything happens at once because no one trusts anyone else enough to go first. The window is finite.</p>
+<p>This series argues that what the United States is experiencing in 2025–2026 is a closing. The debts are decades old. The creditors are foreign governments. The currency is policy. And the man at the center cannot afford to lose power — because the presidency is the only thing standing between him and catastrophic consequences across criminal, financial, and evidentiary domains. All at once.</p>
 </div>
 
 <div class="nums">
@@ -103,35 +164,35 @@ hr{border:none;border-top:1px solid #e5e4e0;margin:48px 0}
 <div class="parties">
 <div class="party-row">
 <div class="party-role">The debtor</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-closing" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">The president</a></div><div class="party-detail">34 felony convictions. Decades of Russian-connected financing. At least eight documented Epstein flights. Suppressed FBI interviews. A 40-count indictment dropped upon winning the presidency. The office is the shelter.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-closing">The president</a></div><div class="party-detail">34 felony convictions. Decades of Russian-connected financing. At least eight documented Epstein flights. Suppressed FBI interviews. A 40-count indictment dropped upon winning the presidency. The office is the shelter.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">Creditor</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-closing" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">Russia</a></div><div class="party-detail">Alaska summit capitulation. ExxonMobil–Rosneft deals. $300B frozen-assets framework. Sanctions lifted while providing targeting intelligence used to kill American troops.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-closing">Russia</a></div><div class="party-detail">Alaska summit capitulation. ExxonMobil–Rosneft deals. $300B frozen-assets framework. Sanctions lifted while providing targeting intelligence used to kill American troops.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">Creditor</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-closing" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">Israel</a></div><div class="party-detail">Operation Epic Fury launched without authorization. Iran's nuclear program degraded. $3.8B+ in annual military aid. AIPAC's $221M enforcing compliance across both parties.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-closing">Israel</a></div><div class="party-detail">Operation Epic Fury launched without authorization. Iran's nuclear program degraded. $3.8B+ in annual military aid. AIPAC's $221M enforcing compliance across both parties.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">Underwriting</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-underwriters" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">The Epstein apparatus</a></div><div class="party-detail">Multi-property surveillance infrastructure. Israeli government–installed equipment. FBI memo: "co-opted agent." Cameras in every room. Material survives the operator's death. Co-conspirator seeks clemency from the person most exposed.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-underwriters">The Epstein apparatus</a></div><div class="party-detail">Multi-property surveillance infrastructure. Israeli government–installed equipment. FBI memo: "co-opted agent." Cameras in every room. Material survives the operator's death. Co-conspirator seeks clemency from the person most exposed.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">Co-signers</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-co-signers" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">The majority party</a></div><div class="party-detail">From Garland blockade to impeachment acquittal to nominating a convicted felon. Eight of ten who broke ranks were destroyed. The ratchet turns one direction.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-co-signers">The majority party</a></div><div class="party-detail">From Garland blockade to impeachment acquittal to nominating a convicted felon. Eight of ten who broke ranks were destroyed. The ratchet turns one direction.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">Counterparties</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-counterparties" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">The opposition</a></div><div class="party-detail">Constrained by the same donor class. Biden DOJ: four years of inaction on the files. At the same table, bound by money — but the constraints are not symmetrical.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-counterparties">The opposition</a></div><div class="party-detail">Constrained by the same donor class. Biden DOJ: four years of inaction on the files. At the same table, bound by money — but the constraints are not symmetrical.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">The hedge</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-hedge" style="color:inherit;text-decoration:none;border-bottom:1px solid #ddd">Institutional capture</a></div><div class="party-detail">17 IGs fired. 317,000 employees removed. 50,000 reclassified. DOJ centralized. Draft election EO circulated. Project 2025: 900 pages, 20,000 loyalists, 180-day playbook. The systematic destruction of every mechanism that could unwind the deal.</div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-hedge">Institutional capture</a></div><div class="party-detail">17 IGs fired. 317,000 employees removed. 50,000 reclassified. DOJ centralized. Draft election EO circulated. Project 2025: 900 pages, 20,000 loyalists, 180-day playbook. The systematic destruction of every mechanism that could unwind the deal.</div></div>
 </div>
 <div class="party-row">
 <div class="party-role">The collateral</div>
-<div class="party-body"><div class="party-name"><a href="read.html#the-collateral" style="color:inherit;text-decoration:none"><span style="background:#1a1a18;color:#1a1a18;padding:1px 2px;cursor:default;user-select:none">You</span></a></div><div class="party-detail"><span style="background:#1a1a18;color:#1a1a18;padding:1px 2px">Every settlement paid from your account.</span> <span style="background:#1a1a18;color:#1a1a18;padding:1px 2px">You were not at the table.</span> <span style="background:#1a1a18;color:#1a1a18;padding:1px 2px">You were a line item.</span></div></div>
+<div class="party-body"><div class="party-name"><a href="read.html#the-collateral"><span class="redact" style="cursor:default;user-select:none">You</span></a></div><div class="party-detail"><span class="redact">Every settlement paid from your account.</span> <span class="redact">You were not at the table.</span> <span class="redact">You were on it.</span></div></div>
 </div>
 </div>
 
@@ -161,21 +222,30 @@ hr{border:none;border-top:1px solid #e5e4e0;margin:48px 0}
 </div>
 
 <footer>
-<p class="label" style="margin-bottom:16px">Read the full series</p>
-<div style="border-top:1px solid #ccc">
-<a href="read.html#the-closing" style="display:block;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">I</span>The Closing</a>
-<a href="read.html#the-underwriters" style="display:block;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">II</span>The Underwriters</a>
-<a href="read.html#the-co-signers" style="display:block;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">III</span>The Co-Signers</a>
-<a href="read.html#the-counterparties" style="display:block;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">IV</span>The Counterparties</a>
-<a href="read.html#the-hedge" style="display:block;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">V</span>The Hedge</a>
-<a href="read.html#the-collateral" style="display:block;padding:10px 0;border-bottom:1px solid #e5e4e0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">VI</span>The Collateral</a>
-<a href="read.html#the-handshake" style="display:block;padding:10px 0;font-size:15px;color:#1a1a18;text-decoration:none"><span style="color:#888;font-family:'Libre Franklin',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-right:8px">VII</span>The Handshake</a>
+<p class="label" style="margin-bottom:20px">Read the full series</p>
+<div>
+<a href="read.html#the-closing" class="toc-link"><span class="toc-num">I</span>The Closing</a>
+<a href="read.html#the-underwriters" class="toc-link"><span class="toc-num">II</span>The Underwriters</a>
+<a href="read.html#the-co-signers" class="toc-link"><span class="toc-num">III</span>The Co-Signers</a>
+<a href="read.html#the-counterparties" class="toc-link"><span class="toc-num">IV</span>The Counterparties</a>
+<a href="read.html#the-hedge" class="toc-link"><span class="toc-num">V</span>The Hedge</a>
+<a href="read.html#the-collateral" class="toc-link"><span class="toc-num">VI</span>The Collateral</a>
+<a href="read.html#the-handshake" class="toc-link"><span class="toc-num">VII</span>The Handshake</a>
 </div>
 </footer>
 
 </div>
 
 <script>
+function isDark(){return document.documentElement.classList.contains('dark')}
+function setThemeLabel(){document.getElementById('themeToggle').textContent=isDark()?'Light':'Dark'}
+function toggleTheme(){
+  document.documentElement.classList.toggle('dark');
+  localStorage.setItem('theme',isDark()?'dark':'light');
+  setThemeLabel();
+}
+setThemeLabel();
+
 const data=[
 {d:"1970s–1990s",entries:[
 {y:"1973",c:"Exposure",t:"DOJ sues Trump for racial discrimination. His attorney: <b>Roy Cohn</b> — McCarthy's former counsel — teaches him to attack, counterattack, never apologize."},
