@@ -2,6 +2,8 @@
 
 **When you co-sign someone's debt, their default becomes your default.**
 
+*Part III of DEAL — A sourced analysis — March 2026*
+
 ---
 
 ## The co-sign
@@ -102,7 +104,7 @@ This is the ratchet made visible. The party did not merely disagree with the mem
 
 ### The fourth signature: the nomination
 
-In 2024, the party nominated a man with [34 felony convictions](https://apnews.com/article/trump-trial-deliberations-hush-money-case-jury-8f28fd4db01bbe01cd194a666e4651a3) for the presidency. Every delegate who voted for the nomination, every official who endorsed, every member who campaigned — each one co-signed the conviction. Not in the sense that they approved of it. In the sense that they attached their political futures to a person whose freedom depends on holding power.
+In 2024, the party nominated a man with [34 felony convictions](https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts) for the presidency. Every delegate who voted for the nomination, every official who endorsed, every member who campaigned — each one co-signed the conviction. Not in the sense that they approved of it. In the sense that they attached their political futures to a person whose freedom depends on holding power.
 
 This is the signature that cannot be explained as pragmatism. A party can block a Supreme Court confirmation and call it strategy. It can acquit a president and call it institutional judgment. It can reject an impeachment and call it due process. But nominating a convicted felon for the highest office in the country is a bet — a bet that the convictions will never matter, that the power will hold, that the exposure will remain contained. It is a co-sign on the entire debt, not a single installment. And if the borrower defaults, every person who cast that vote owns a share of what follows.
 
@@ -233,3 +235,7 @@ That none of the individuals participating in the protection of this arrangement
 The structural explanation requires only one assumption: that a co-signer protects the debtor because the debtor's default is the co-signer's default. The ratchet turned for six years. Every signature made the next one cheaper and the cost of reversal higher. By the time the files started naming names, the co-signers had already signed so many times that defection was indistinguishable from self-destruction. And the behavior that results — the suppression, the silence, the active protection of an arrangement that serves foreign creditors at the expense of American lives — is not loyalty. It is not ideology. It is not even cowardice.
 
 It is the arithmetic of a co-sign. The borrower defaults, and you pay. So you make sure the borrower never defaults. Whatever it costs. Whoever it kills.
+
+---
+
+*Part IV of this series — The Counterparties — will examine the other side of the table: why the opposition is not pushing as hard as it could, what the previous administration's DOJ knew and did not act on, and the bipartisan architecture of silence that ensures full transparency has not arrived — and may not, because the bomb does not discriminate.*

@@ -2,6 +2,8 @@
 
 **In a closing, collateral is what gets seized when the deal goes bad.**
 
+*Part VI of DEAL — A sourced analysis — March 2026*
+
 ---
 
 You.
@@ -149,3 +151,7 @@ The collateral has been seized. The question is whether anything can be recovere
 You were never at the table. You have always been on it.
 
 What you do with that knowledge is the only variable in this closing that the parties at the table do not control.
+
+---
+
+*Part VII of this series — The Handshake — will examine the agreements that were never written down, the classified weight that may explain why the desperation goes beyond anything the public record currently shows, and the question that the series has been building toward: you will likely never see confirmation. But everything documented in these pages points in one direction — and the behavior is the proof.*

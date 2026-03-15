@@ -2,6 +2,8 @@
 
 **How accumulated exposure created a president who cannot afford to leave power — and a foreign policy that only makes sense when you understand that fact**
 
+*A sourced analysis — March 13, 2026*
+
 ---
 
 ## The premise
@@ -24,7 +26,7 @@ Before examining what is being settled and with whom, it is necessary to establi
 
 ### Criminal
 
-Donald Trump was convicted on [34 felony counts](https://apnews.com/article/trump-trial-deliberations-hush-money-case-jury-8f28fd4db01bbe01cd194a666e4651a3) in New York in May 2024. Sentencing has been indefinitely deferred because he holds the presidency. He was [found liable in civil court](https://www.reuters.com/legal/trump-found-liable-sexually-abusing-defaming-e-jean-carroll-2023-05-09/) for sexually abusing E. Jean Carroll. The presidency is currently functioning as the sole mechanism preventing the execution of an existing criminal sentence. This is not alleged. It is the procedural reality of the case.
+Donald Trump was convicted on [34 felony counts](https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts) in New York in May 2024. Sentencing has been indefinitely deferred because he holds the presidency. He was [found liable in civil court](https://www.npr.org/2023/05/09/1174975870/trump-carroll-verdict) for sexually abusing E. Jean Carroll. The presidency is currently functioning as the sole mechanism preventing the execution of an existing criminal sentence. This is not alleged. It is the procedural reality of the case.
 
 ### Financial
 

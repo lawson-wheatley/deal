@@ -2,6 +2,8 @@
 
 **Every position needs protection. This is what protecting the deal looks like.**
 
+*Part V of DEAL — A sourced analysis — March 2026*
+
 ---
 
 ## The hedge
@@ -211,3 +213,7 @@ The structural explanation requires only one assumption: that a hedge is a hedge
 The Hedge ends by asking: if the system is designed so that no force within it can unwind the deal — who bears the cost?
 
 That is Part VI.
+
+---
+
+*Part VI of this series — The Collateral — will examine who pays the price when the deal is protected: the troops, the economy, the intelligence assets, the voters, the allies, and the public that was never at the table but has been on it the entire time.*

@@ -2,6 +2,8 @@
 
 **The underwriter is dead. The underwriting survives.**
 
+*Part II of DEAL — A sourced analysis — March 2026*
+
 ---
 
 ## The function
@@ -76,7 +78,7 @@ What Epstein built was not a network of residences. It was a collection system.
 
 When the FBI [searched the Manhattan townhouse](https://www.cbsnews.com/live-updates/epstein-files-released-documents-2025/) at 9 East 71st Street in July 2019, agents documented surveillance cameras on the third floor — in the bedroom, the bathrooms, and the massage room where victims reported being abused. A ground-floor room bore a sign reading ["24 Hour Video Surveillance"](https://www.yahoo.com/news/articles/secret-cameras-epstein-mansion-raise-160933596.html) and housed monitors displaying feeds from cameras throughout the property. A [former employee testified](https://www.ibtimes.co.uk/epstein-files-mossad-ties-surveillance-1780117) that in 2014, Epstein directed an aide to purchase "three motion-detected hidden cameras" to be concealed inside Kleenex boxes. An early victim, Maria Farmer, [told the FBI in 1996](https://en.wikipedia.org/wiki/Jeffrey_Epstein) that she had been shown a hidden room where teams of men monitored the property using pinhole cameras — including in bedrooms and bathrooms.
 
-From the safe agents [cut open with a saw](https://www.newsweek.com/missing-jeffrey-epstein-tapes-fbi-1857766), they recovered CDs, hard drives, cash, diamonds, jewelry, and an expired Austrian passport bearing Epstein's photograph under a different name, with Saudi Arabia listed as his country of residence. The [FBI logged](https://medium.com/@lovefoods_54026/the-jeffrey-epstein-case-surveillance-data-storage-and-network-protocols-0b0c4955f7c0) over 40 computers and electronic devices, 26 storage drives, more than 70 CDs, and six recording devices — collectively containing over 300 gigabytes of data. Some CDs were [labeled "young \[name\]"](https://en.wikipedia.org/wiki/Jeffrey_Epstein) and depicted individuals who, in the words of investigators, "seemed as if they might be minors."
+From the safe agents [cut open with a saw](https://www.newsweek.com/missing-jeffrey-epstein-tapes-fbi-1857766), they recovered CDs, hard drives, cash, diamonds, jewelry, and an expired Austrian passport bearing Epstein's photograph under a different name, with Saudi Arabia listed as his country of residence. The [FBI logged](https://www.cbsnews.com/live-updates/epstein-files-released-documents-2025/) over 40 computers and electronic devices, 26 storage drives, more than 70 CDs, and six recording devices — collectively containing over 300 gigabytes of data. Some CDs were [labeled "young \[name\]"](https://en.wikipedia.org/wiki/Jeffrey_Epstein) and depicted individuals who, in the words of investigators, "seemed as if they might be minors."
 
 The townhouse was not the only site. On Little St. James, the private island in the U.S. Virgin Islands, investigators [recovered Ubiquiti surveillance cameras](https://hntrbrk.com/ubiquiti-epstein/), a UniFi Video Recorder from a server rack, and networking equipment that had been specifically procured for the island beginning in late 2017. A former CIA officer [stated publicly](https://www.ibtimes.co.uk/epstein-files-mossad-ties-surveillance-1780117) that the island had "hidden video cameras literally in every room, including the bathrooms." At the Palm Beach residence, police who raided the property in 2005 [found a camera hidden inside a clock](https://www.yahoo.com/news/articles/secret-cameras-epstein-mansion-raise-160933596.html) in the office and another near the garage. Recently released DOJ files include [grainy video clips from a hidden camera](https://www.yahoo.com/news/articles/secret-cameras-epstein-mansion-raise-160933596.html) in the Palm Beach office, showing Epstein interacting with unidentified individuals at his desk.
 
@@ -207,3 +209,7 @@ The conventional explanation requires the reader to accept that a convicted sex 
 The structural explanation requires only one assumption: that an underwriting operation built to collect leverage on powerful people succeeded in collecting it. And that the instruments it produced did not expire when the underwriter died.
 
 In Part I, we documented a closing — debts being settled, in policy, in sanctions relief, in American blood. This piece has documented the underwriting that made those debts enforceable — and the succession that ensures the function continues.
+
+---
+
+*Part III of this series — The Co-Signers — will examine how a political party went from reluctant enablers to active participants in the suppression, obstruction, and cover-up that protects the arrangement described in Parts I and II.*

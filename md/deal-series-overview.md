@@ -81,7 +81,7 @@ The series draws on 423 sourced links across more than 90 outlets. Below is a re
 - Epstein Files Transparency Act (427–1 vote, file releases, suppression timeline): [NPR](https://www.npr.org/2025/11/18/nx-s1-5611438/epstein-files-bill-house-vote) · [Wikipedia](https://en.wikipedia.org/wiki/Epstein_Files_Transparency_Act) · [Epstein files](https://en.wikipedia.org/wiki/Epstein_files)
 - DOJ suppression of FBI interviews naming Trump: [NPR (Feb 2026)](https://www.npr.org/2026/02/24/nx-s1-5723968/epstein-files-trump-accusation-maxwell) · [NPR (Mar 2026)](https://www.npr.org/2026/03/05/nx-s1-5737562/justice-department-missing-epstein-files-trump) · [PBS NewsHour](https://www.pbs.org/newshour/show/doj-releases-epstein-files-containing-sexual-assault-allegations-against-trump)
 - Bipartisan investigation into missing 37 pages: [NPR](https://www.npr.org/2026/02/25/nx-s1-5726780/democrats-doj-epstein-files-trump-missing-pages) · [CNN](https://www.cnn.com/2026/02/24/us/epstein-files-trump-accuser-missing-files-invs)
-- Trump felony convictions (34 counts, New York): [AP News](https://apnews.com/article/trump-trial-deliberations-hush-money-case-jury-8f28fd4db01bbe01cd194a666e4651a3)
+- Trump felony convictions (34 counts, New York): [AP News](https://www.npr.org/2024/05/30/g-s1-1848/trump-hush-money-trial-34-counts)
 - Classified documents indictment (37 counts, superseded to 40): [Just Security](https://www.justsecurity.org/86887/national-security-implications-of-trumps-indictment-a-damage-assessment/) · [CNN](https://www.cnn.com/interactive/2023/06/politics/annotated-trump-indictment-dg/)
 - Mar-a-Lago search and classified material recovery: [NPR](https://www.npr.org/2022/08/29/1119889338/after-mar-a-lago-officials-are-analyzing-the-potential-damage-to-national-securi)
 - Inspector general firings: [NPR](https://www.npr.org/2025/01/25/g-s1-44771/trump-fires-inspectors-general) · [Wikipedia](https://en.wikipedia.org/wiki/2025_dismissals_of_U.S._inspectors_general)
@@ -131,7 +131,7 @@ The series draws on 423 sourced links across more than 90 outlets. Below is a re
 ### Financial exposure
 - Trump-Russia financial ties: [The Moscow Project](https://themoscowproject.org/collusion-chapter/chapter-1/index.html) · [Center for American Progress](https://www.americanprogress.org/article/following-the-money/)
 - Deutsche Bank Russian money laundering penalties: [Reuters](https://www.reuters.com/article/us-deutsche-bank-mirror-idUSKBN15617S/)
-- E. Jean Carroll civil liability: [Reuters](https://www.reuters.com/legal/trump-found-liable-sexually-abusing-defaming-e-jean-carroll-2023-05-09/)
+- E. Jean Carroll civil liability: [Reuters](https://www.npr.org/2023/05/09/1174975870/trump-carroll-verdict)
 
 ---
 
